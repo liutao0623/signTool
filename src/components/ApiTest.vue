@@ -2,7 +2,7 @@
 <template>
   <div class>
     <el-button type="primary" round @click="getInfo">获取polyv数据</el-button>
-    <el-button type="primary" round @click="getData">获取聚合数据</el-button>
+    <el-button type="primary" round @click="getData">获取聚合的数据</el-button>
     <div v-for="(item,k) in list" :key="k">
       <h1>author_name--{{item.author_name}}</h1>
       <h2>title--{{item.title}}</h2>
