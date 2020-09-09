@@ -23,5 +23,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 
 1.修改api.js的请求接口路径
+
 2.config 下的 index.js 的代理地址
+
 3.api下 index.js 配置API接口地址 root 线上打包需要修改
